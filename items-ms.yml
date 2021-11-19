@@ -1,7 +1,7 @@
 spring:
   cloud:
     config:
-      override-system-properties: false
+      override-system-properties: true
       allow-override: true
       override-none: false
   datasource:
