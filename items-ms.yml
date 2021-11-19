@@ -2,6 +2,7 @@ spring:
   cloud:
     config:
       override-system-properties: false
+      allow-override: false
   datasource:
     password: '{cipher}AQBetMnRbhC2zu59BJPWs5K85CoXOsZWoSnVf+C56M3iNDd6EuHMnLflspqHHwo9jSos/Q39MI+K6EM1kGy+ZKBMmbvNnShwp072KSxakbSbscadx/c+EYnI6Z6SGiqpD+XzYNUK7F3B8Gbkv70HnOE9bKY+9w2PLiZYrXVCSM6o0WAnghUEnbWoauno4tjhmPUI7dmLp5LVu9696S5VobyhBXyflc6ObbDts/fhrs28G2CLjuodu4qOdxm8qRUSxwGML8T3dKMWjMtD3/yu0QlyhM354CYTlWapixZN7tfmOHDeaq5JftloqypSNLiK9UUFaXIWdmSBUz+U6TAZU4QrJb16L164cveQ/WVfs8IBTaM+4dFGHyvvdP3Tk7dSeEc='
     url: incorrect
